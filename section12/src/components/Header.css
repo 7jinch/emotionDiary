@@ -1,0 +1,30 @@
+/* src/components/Button.css */
+.Header {
+  display: flex;
+  /* 세로를 기준으로 가운데 배치 */
+  align-items: center;
+  padding: 20px 0px;
+  border-bottom: 1px solid rgb(226, 226, 226);
+}
+
+.Header > div {
+  display: flex;
+}
+
+.Header .header_center {
+  width: 50%;
+  font-size: 25px;
+  /* 자식들이 배치되는 위치를 가운데로 함 */
+  justify-content: center;
+}
+
+.Header .header_left {
+  width: 25%;
+  /* 왼쪽에 붙음 */
+  justify-content: flex-start;
+}
+.Header .header_right {
+  width: 25%;
+  /* 오른쪽에 붙음 */
+  justify-content: flex-end;
+}

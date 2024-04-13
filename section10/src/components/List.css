@@ -1,0 +1,26 @@
+.List {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.List > input {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid rgb(220, 220, 220);
+  /* 위, 아래에는 15px, 좌우는 0px 여백을 줌 */
+  padding: 15px 0px;
+}
+
+/* input 박스를 focust 했을 경우 */
+.List > input:focus {
+  /* 파란선을 없앰 */
+  outline: none;
+  border-bottom: 1px solid rgb(37, 147, 255);
+}
+
+.List .todos_wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}

@@ -1,0 +1,11 @@
+.App {
+  display: flex;
+  /* 세로 배치함 */
+  flex-direction: column;
+  /* display가 flex일 때만 사용 가능 */
+  gap: 10px;
+
+  /* 요소를 중앙에 배치 */
+  width: 500px;
+  margin: 0 auto;
+}
